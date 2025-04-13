@@ -1,0 +1,129 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+header{
+    background: radial-gradient(circle, #700bb3, #c327be )
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 82px;
+    padding: 5px;
+    background-color:#111;
+    width: 100%;
+    height: 50px;
+}
+
+nav a{
+    color: white;
+    margin-top: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #141414;
+}
+
+section > h1{
+
+    font-family: 'Orbitron', sans-serif;
+    color: #c327be;
+    padding: 20px;
+    padding-left: 80px;
+    padding-top: 52px;
+    font-size: 26px;
+}
+
+section > p{
+    font-family: 'Rajdhani';
+    color:#e8eced;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-bottom: 6px;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+
+#contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    color: #e8eced;
+    font-family: 'Rajdhani';
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+textarea{
+    padding: 10px;
+    padding-left: 50px;
+    width: 300px;
+}
+#contato > input{
+    padding: 12px;
+    padding-left: 40px;
+    width: 300px;
+}
+
+#botao{
+    width: 360px;
+    height: 35px;
+    background-color: #700bb3;
+    color: #e8eced;
+    border: 1px solid #111;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 10px;
+    text-align: center;
+}
+
+
+#botao:hover{
+    background-color: #490676;
+}
+
+.redes_sociais{
+    background-color: #e8eced;
+    padding: 10px;
+    font-family: 'Rajdhani';
+    text-align: center;
+}
+
+#redes_sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 2%;
+    background-color: #e8eced;
+}
+
+#redes_sociais a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.copyright {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #111;
+}
+
+
+
+
